@@ -1,2 +1,4 @@
-# web6404veryutinma
-Lab works on the subject of Web programming. Samara State Aerospace University 2024
+ФИО: Верютин Михаил Александрович, группа: 6404, 
+„Хорошее начало — половина дела.“ (Платон)
+
+![image](https://github.com/user-attachments/assets/860e3d50-0f6a-493f-b066-dff545959b15)
