@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="resources/favicon.ico">
+    <title>Проекты</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body id="form-page">
+    <header>
+        <h1>Добро пожаловать на мой сайт!</h1>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="info.html">Расценки</a>
+            <a href="form.html">Проекты</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Форма обратной связи</h2>
+            <form id="feedback-form" class="flex-container" method="POST">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Ваш email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <a href="https://github.com/Iakivw/web6404veryutinma" style="float: right; padding-right: 10px">
+            <img src="resources/github-mark.svg" alt="Github" width="40" style="padding-top: 8px;" />
+        </a>
+        <h3 style="float: right; padding-right: 10px">Мой Github</h2>
+    </footer>
+</body>
+
+</html>
